@@ -6,7 +6,6 @@ QUESTION:
 */
 
 // TESTS SORTING 
-
 const AlphabetSoup= (str) =>{
   // first make the string to be an array
   const strArr = str.split('');
@@ -17,7 +16,6 @@ const AlphabetSoup= (str) =>{
   return result;
 
   // can also be done in a single line of code
-  return str.split("").sort().join("");
+  // return str.split("").sort().join("");
 } 
-
 AlphabetSoup(readline());
